@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>熊本技術大学ホームページ</title>
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<link rel="stylesheet" href="common/css/normalize.css">
+<link rel="stylesheet" href="common/css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=M+PLUS+2:wght@450&family=Noto+Sans+JP:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sawarabi+Gothic&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=M+PLUS+2:wght@100..900&family=Noto+Sans+JP:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sawarabi+Gothic&display=swap" rel="stylesheet">
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="common/js/script.js" defer></script>
+</head>
+<body>
+	<header>
+		<div class="menu_alt">
+			<div class="menu_bar_alt">
+				<img src="images/logo01.png" alt alt="熊本技術大学" id="logo_alt">
+				<button type="button" class="menu_toggle">
+					<span class="line"></span>
+					<span class="line"></span>
+					<span class="line"></span>
+					<p class="menu_toggle_text active">メニュー</p>
+					<p class="menu_toggle_text">閉じる</p>
+				</button>
+			</div>
+			<nav class="menu_alt_nav">
+				<ul>
+					<li>
+						<div class="menu_alt_nav_item">
+							<p>大学案内</p>
+							<button type="button" class="nav_toggle">
+								<span class="nav_toggle_line"></span>
+								<span class="nav_toggle_line"></span>
+							</button>
+						</div>
+						<div class="menu_alt_nav_item_block">
+							<a href="#"><p>大学紹介</p></a>
+							<a href="#"><p>大学の取り組み</p></a>
+							<a href="#"><p>ビジョン・計画</p></a>
+							<a href="#"><p>採用情報</p></a>
+							<a href="#"><p>資料請求</p></a>
+						</div>
+					</li>
+					<li>
+						<div class="menu_alt_nav_item">
+							<p>訪問者別案内</p>
+							<button type="button" class="nav_toggle">
+								<span class="nav_toggle_line"></span>
+								<span class="nav_toggle_line"></span>
+							</button>
+						</div>
+						<div class="menu_alt_nav_item_block">
+							<a href="#"><p>受験生の方</p></a>
+							<a href="#"><p>卒業生の方</p></a>
+							<a href="#"><p>在学生の方</p></a>
+							<a href="#"><p>教職員の方</p></a>
+							<a href="#"><p>保護者等の方</p></a>
+						</div>
+					</li>
+					<li>
+						<div class="menu_alt_nav_item">
+							<p>学部</p>
+							<button type="button" class="nav_toggle">
+								<span class="nav_toggle_line"></span>
+								<span class="nav_toggle_line"></span>
+							</button>
+						</div>
+						<div class="menu_alt_nav_item_block">
+							<a href="#"><p>芸術学部</p></a>
+							<a href="#"><p>機械工学部</p></a>
+							<a href="#"><p>情報工学部</p></a>
+							<a href="#"><p>生物学部</p></a>
+							<a href="#"><p>建築工学部</p></a>
+						</div>
+					</li>
+					<li>
+						<div class="menu_alt_nav_item">
+							<p>研究活動</p>
+							<button type="button" class="nav_toggle">
+								<span class="nav_toggle_line"></span>
+								<span class="nav_toggle_line"></span>
+							</button>
+						</div>
+						<div class="menu_alt_nav_item_block">
+							<a href="#"><p>大学紹介</p></a>
+							<a href="#"><p>大学の取り組み</p></a>
+							<a href="#"><p>ビジョン・計画</p></a>
+							<a href="#"><p>採用情報</p></a>
+							<a href="#"><p>資料請求</p></a>
+						</div>
+					</li>
+					<li>
+						<div class="menu_alt_nav_item">
+							<p>文化活動</p>
+							<button type="button" class="nav_toggle">
+								<span class="nav_toggle_line"></span>
+								<span class="nav_toggle_line"></span>
+							</button>
+						</div>
+						<div class="menu_alt_nav_item_block">
+							<a href="#"><p>図書館</p></a>
+							<a href="#"><p>博物館</p></a>
+							<a href="#"><p>熊技大学歴史館</p></a>
+						</div>
+					</li>
+				</ul>
+			</nav>
+			<div class="alt_menu_footer">
+				<div class="alt_menu_footer_item">
+					<a href="#" class="mail_and_access alt_menu_icon">
+						<i class="fa-regular fa-envelope fa-rotate-by"></i>
+						<p class="footer_p alt">お問い合わせ</p>
+					</a>
+					<a href="#" class="mail_and_access alt_menu_icon">
+						<i class="fa-solid fa-location-dot"></i>
+						<p class="footer_p alt">アクセス</p>
+					</a>
+				</div>
+				<ul class="alt_menu_footer_link">
+					<li><a href="#">このサイトについて</a></li>
+					<li><a href="#">サイトマップ</a></li>
+					<li><a href="#">個人情報の取り扱い</a></li>
+					<li><a href="#">サイトポリシー</a></li>
+					<li><a href="#">採用情報</a></li>
+				</ul>
+			</div>
+			<div class="menu_overlay"></div>
+		</div>
+
+		
+
+		<div class="menu_bar">
+			<div class="logo">
+				<a href="#">
+						<img src="images/logo01.png"  alt="熊本技術大学">
+				</a>
+			</div>
+
+			<nav class="header_menu">
+				<div class="header_top_menu">
+					<ul class="header_top_menu_left">
+						<li>
+							<a href="#">
+								<small class="strong_sides">Applicants<br></small>
+								<strong class="strong">受験生</strong>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<small class="strong_sides">Alumni<br></small>
+								<strong class="strong">卒業生</strong>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<small class="strong_sides">Students<br></small>
+								<strong class="strong">在学生</strong>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<small class="strong_sides">Staffs<br></small>
+								<strong class="strong">教職員</strong>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<small class="strong_sides">Parents<br></small>
+								<strong class="strong">保護者等</strong>
+							</a>
+						</li>
+					</ul>
+
+					<ul class="header_top_menu_right">
+						<li>
+							<a href="#"  class="menu_right_box">
+								<span class="fa-solid fa-hand-holding-heart"></span>
+								<small class="menu_right_box_text">寄付</small>
+							</a>
+						</li>
+						<li>
+							<a href="#" class="menu_right_box">
+								<span class="fa-solid fa-location-dot"></span>
+								<small class="menu_right_box_text">アクセス</small>
+							</a>
+						</li>
+						<li>
+							<a href="#" class="menu_right_box">
+								<span class="fa-solid fa-magnifying-glass"></span>
+								<small class="menu_right_box_text">検索</small>
+							</a>
+						</li>
+						<li>
+							<a href="#" class="menu_right_box line_none">
+								<span class="fa-solid fa-earth-americas"></span>
+								<small class="menu_right_box_text">Languages</small>
+							</a>
+						</li>
+					</ul>
+				</div>
+
+				<ul class="header_under_menu">
+					<li class="header_under_menu_item">
+						<div class="hover_item">
+							<small class="header_under_menu_item_strong_sides">Univercity Guide<br></small>
+							<strong class="header_under_menu_item_strong">大学案内</strong>
+						</div>
+						<ul class="sub_menu">
+							<li><a href="#">大学紹介</a></li>
+							<li><a href="#">大学の取り組み</a></li>
+							<li><a href="#">ビジョン・計画</a></li>
+							<li><a href="#">採用情報</a></li>
+							<li><a href="#">資料請求</a></li>
+						</ul>
+					</li>
+					<li class="header_under_menu_item">
+						<div class="hover_item">
+							<small class="header_under_menu_item_strong_sides">Faculty/Graduate school<br></small>
+							<span class="header_under_menu_item_strong">学部案内</span>
+						</div>
+						<ul class="sub_menu">
+							<li><a href="#">芸術学部</a></li>
+							<li><a href="#">機械工学部</a></li>
+							<li><a href="#">情報学部</a></li>
+							<li><a href="#">生物学部</a></li>
+							<li><a href="#">建築工学部</a></li>
+						</ul>
+					</li>
+					<li class="header_under_menu_item">
+						<div class="hover_item">
+							<small class="header_under_menu_item_strong_sides">Research Activities<br></small>
+							<strong class="header_under_menu_item_strong">研究活動</strong>
+						</div>
+						<ul class="sub_menu">
+							<li><a href="#">研究推進TOP</a></li>
+							<li><a href="#">学内教員</a></li>
+							<li><a href="#">研究者用サイト</a></li>
+						</ul>
+					</li>
+					<li class="header_under_menu_item">
+						<div class="hover_item">
+							<small class="header_under_menu_item_strong_sides">Culture activities<br></small>
+							<strong class="header_under_menu_item_strong">文化活動</strong>
+						</div>
+						<ul class="sub_menu">
+							<li><a href="#">図書館</a></li>
+							<li><a href="#">博物館</a></li>
+							<li><a href="#">熊技大学歴史館</a></li>
+						</ul>
+					</li>
+				</ul>		
+			</nav>
+		</div>
+	</header>
+	<main>
+		<div class="slideshow_and_indicator">
+			<div class="slideshow">
+				<div  class="active">
+					<img src="images/first-image-01.jpg" alt="校舎" id="first-image-01">
+					<span class="active_text">熊本で、最先端の技術を学ぶ</span>
+				</div>
+				<div>
+					<img src="images/first-image-02.jpg" alt="学科説明会" id="first-image-02">
+				</div>
+				<div>
+					<img src="images/first-image-03.jpg" alt="校舎" id="first-image-03">
+				</div>
+			</div>
+			<div class="indicator">
+				<button type="button" class="dot active"></button>
+				<button type="button" class="dot"></button>
+				<button type="button" class="dot"></button>
+			</div>
+		</div>
+			
+		<section class="pick_up">
+			<div class="pick_up_text">
+				<h1><span style="color: #3772d1;">P</span>ick <span style="color: #29aa4d;">U</span>P</h1>
+			</div>
+			<div class="pick_up_image_and_text">
+					<div>
+						<a href="#" class="pick_up_img_block"><img src="images/second-image01.jpg" alt="第32回ロボコン"></a>
+						<p class="pick_up_images_text"><a href="#">第32回ロボコンに対する意気込み</a></p>
+					</div>
+					<div>
+						<a href="#" class="pick_up_img_block"><img src="images/second-image02.jpg" alt="kursaグループ特別説明会"></a>
+						<p class="pick_up_images_text"><a href="#">kursaグループ副会長の特別説明会</a></p>
+					</div>
+					<div class="pick_up_images">
+						<a href="#" class="pick_up_img_block"><img src="images/second-image03.jpg" alt="初代校長ロドニー氏"></a>
+						<p class="pick_up_images_text"><a href="#">初代校長ロドニー氏の「勉学の法則」</a></p>
+					</div>
+					<div>
+						<a href="#" class="pick_up_img_block"><img src="images/second-image04.jpg" alt="熊技祭"></a>
+						<p class="pick_up_images_text"><a href="#">毎年恒例の「熊技祭」その歴史とは</a></p>
+					</div>
+					<div>
+						<a href="#" class="pick_up_img_block"><img src="images/second-image05.jpg" alt="第2回熊本プロコン準優勝"></a>
+						<p class="pick_up_images_text"><a href="#">第2回熊本プロコン準優勝  シス研会</a></p>
+					</div>
+					<div>
+						<a href="#" class="pick_up_img_block"><img src="images/second-image06.jpg" alt="半導体"></a>
+						<p class="pick_up_images_text"><a href="#">熊本で半導体を学ぶ大きな理由とは</a></p>
+					</div>
+			</div>
+			<div class="list_link">
+				<a href="#"><i class="fa-solid fa-circle-play"></i>
+				<p>ニュース・イベント一覧</p></a>
+			</div>
+		</section>
+		<section class="gaiyou">
+			<div class="gaiyou_background_block"></div>
+			<h2 id="gaiyou_title_sub">熊本技術大学で学び、<br><span>　自身の望む未来</span>を実現しよう</h2>
+			<div class="gaiyou_image_and_textbox">
+				<img src="images/third-image01.jpg" alt="3人の学生">
+				<div class="gaiyou_textbox">
+					<p>目指す職場<small>への</small><span>就職率</span></p>
+					<strong>99<span>.0%</span></strong>
+					<small>※2023年度卒業生</small>
+				</div>
+				<img src="images/third-image02.jpg" alt="ガッツポーズの学生" id="third-image02">
+			</div>
+			<div class="gaiyou_text">
+				<h2 id="gaiyou_title">熊本技術大学で学び、<br><span>　自身の望む未来</span>を実現しよう</h2>
+				<p id="gaiyou_honbun">　熊本技術大学は、学生の希望に沿ったキャリア形成を手伝い、
+					2023年度の就職率は99％ときわめて高い水準にあります。
+					5学部9学科の多様なプログラムを通じて、学生一人ひとりの
+					夢を実現へと導きます。<br><br>
+					　熊本の豊かな自然と先進技術が融合したキャンパスで、
+					世界をリードするイノベーターとしての第一歩を
+					踏み出しましょう。
+					あなたの未来を形作る場所、それがここにあります。</p>
+				<span id="syushoku01">主な就職先</span>
+				<div class="syushokusaki_kakomi">
+					<p id="syushoku02">	・三星電機<br>・ダイキル工業<br>・ヤマホ発動機<br>・デンスー<br>・川之重工業<br>・キヤノー<br>・京セラノ
+					</p>
+					<p id="syushoku03">	・ススキ<br>・トヨタツ紡織<br>・大西日本建設コンサルタント<br>・日東北東電工<br>・ファナックル<br>・日本ガイシン<br>・NTNT
+					</p>
+				</div>
+			</div>
+		</section>
+		<section class="news_and_ivents_section">
+			<div class="news_and_ivents">
+				<h3 class="news_and_ivents_headline">News</h3>
+				<ul>
+					<li class="news_and_ivents_texts">
+						<p class="hinichi">2024/6/23</p>
+						<p class="news_and_ivents_text_item"><a href="#">NHK熊本放送クマロク！に出演します(放送：7/12予定)</a></p>
+					</li>
+					<li class="news_and_ivents_texts">
+						<p class="hinichi">2024/6/21</p>
+						<p class="news_and_ivents_text_item"><a href="#">2024年5月のエネルギー使用状況について</a></p>
+					</li>
+					<li class="news_and_ivents_texts">
+						<p class="hinichi">2024/6/20</p>
+						<p class="news_and_ivents_text_item"><a href="#">システム研究会、第2回プログラムコンテストにて準優勝</a></p>
+
+					</li>
+					<li class="news_and_ivents_texts">
+						<p class="hinichi">2024/6/17</p>
+						<p class="news_and_ivents_text_item"><a href="#">新型コロナウィルス感染症対策本部の終了について</a></p>
+
+					</li>
+					<li class="news_and_ivents_texts">
+						<p class="hinichi">2024/6/15</p>
+						<p class="news_and_ivents_text_item"><a href="#">大学情報誌「くまのぎ」第24号を発行</a></p>
+
+					</li>
+				</ul>
+				<div>
+					<a href="#" class="list_link02">
+						<i class="fa-solid fa-circle-play"></i>
+						<p>一覧</p>
+					</a>
+				</div>
+			</div>
+			<div class="news_and_ivents">
+				<h3 class="news_and_ivents_headline">Ivents</h3>
+				<ul>
+					<li class="news_and_ivents_texts">
+						<p class="news_and_ivents_text_item"><a href="#">機械工学部オープンキャンパス開催</a></p>
+						<p class="hinichi">日程：2024/7/27(土)</p>
+					</li>
+					<li class="news_and_ivents_texts">
+						<p class="news_and_ivents_text_item"><a href="#">第28回ロボットコンテストの日程説明会</a></p>
+						<p class="hinichi">日程：2024/7/15(月)</p>
+					</li>
+					<li class="news_and_ivents_texts">						
+						<p class="news_and_ivents_text_item"><a href="#">Kursaグループ副会長による講演会「AIによる経済成長」</a></p>
+						<p class="hinichi">日程：2024/7/5(金)</p>
+					</li>
+					<li class="news_and_ivents_texts">
+						<p class="news_and_ivents_text_item"><a href="#">メディアデザイン科オンライン説明会</a></p>
+						<p class="hinichi">日程：2024/7/2(火)</p>
+					</li>
+					<li class="news_and_ivents_texts">
+						<p class="news_and_ivents_text_item"><a href="#">公開講座・技術への期待 第2回「宇宙と空気」</a></p>
+						<p class="hinichi">日程：2024/6/28(金)</p>
+					</li>
+				</ul>
+				<div>
+					<a href="#" class="list_link02">
+						<i class="fa-solid fa-circle-play"></i>
+						<p>一覧</p>
+					</a>
+				</div>
+			</div>
+		</section>
+	</main>
+	<footer>
+		<div class="footer_grey">
+			<div class="footer_grey_left">
+				<a href="#">
+				<img src="images/logo02.png" alt="logo02">
+				</a>
+				<a href="#" class="mail_and_access">
+					<i class="fa-regular fa-envelope fa-rotate-by"></i>
+					<p class="footer_p">お問い合わせ</p>
+				</a>
+				<a href="#" class="mail_and_access">
+					<i class="fa-solid fa-location-dot"></i>
+					<p class="footer_p">アクセス</p>
+				</a>
+			</div>
+			<div class="footer_grey_right">
+				<div class="footer_annai_left">
+					<span class="footer_annai_item">
+						<a href="#" class="triangle"><i class="fa-duotone fa-solid fa-square-caret-right"></i></a>
+						<a href="#" class="footer_annai_link">大学案内</a>
+					</span>
+					<span class="footer_annai_item">
+						<a href="#" class="triangle"><i class="fa-duotone fa-solid fa-square-caret-right"></i></a>
+						<a href="#" class="footer_annai_link">学部/大学院</a>
+					</span>
+					<span class="footer_annai_item">
+						<a href="#" class="triangle"><i class="fa-duotone fa-solid fa-square-caret-right"></i></a>
+						<a href="#" class="footer_annai_link">研究活動</a>
+					</span>
+					<span class="footer_annai_item">
+						<a href="#" class="triangle"><i class="fa-duotone fa-solid fa-square-caret-right"></i></a>
+						<a href="#" class="footer_annai_link">文化活動</a>
+					</span>
+				</div>
+				<div class="footer_annai_right">
+					<span class="footer_annai_item">
+						<a href="#" class="triangle"><i class="fa-duotone fa-solid fa-square-caret-right"></i></a>
+						<a href="#" class="footer_annai_link">受験生の方</a>
+					</span>
+					<span class="footer_annai_item">
+						<a href="#" class="triangle"><i class="fa-duotone fa-solid fa-square-caret-right"></i></a>
+						<a href="#" class="footer_annai_link">卒業生の方</a>
+					</span>
+					<span class="footer_annai_item">
+						<a href="#" class="triangle"><i class="fa-duotone fa-solid fa-square-caret-right"></i></a>
+						<a href="#" class="footer_annai_link">教職員の方</a>
+					</span>
+					<span class="footer_annai_item">
+						<a href="#" class="triangle"><i class="fa-duotone fa-solid fa-square-caret-right"></i></a>
+						<a href="#" class="footer_annai_link">保護者等</a>
+					</span>
+					<span class="footer_annai_item">
+						<a href="#" class="triangle"><i class="fa-duotone fa-solid fa-square-caret-right"></i></a>
+						<a href="#" class="footer_annai_link">大学案内</a>
+					</span>
+				</div>
+			</div>
+		</div>
+		<div class="footer_white">
+			<div class="footer_white_annai">
+				<a href="#" class="footer_white_annai_item"><p>このサイトについて</p></a>
+				<a href="#" class="footer_white_annai_item"><p>サイトマップ</p></a>
+				<a href="#" class="footer_white_annai_item"><p>個人情報の取り扱い</p></a>
+				<a href="#" class="footer_white_annai_item"><p>サイトポリシー</p></a>
+				<a href="#" class="footer_white_annai_item"><p>採用情報</p></a>
+			</div>
+			<div class="SNS_icons">
+				<a href="#"><img src="images/logo-black.png" alt="X_image" class="SNS_item"></a>
+				<a href="#"><img src="images/Instagram_Glyph_Gradient.png" alt="Instagram_image" class="SNS_item"></a>
+				<a href="#"><img src="images/Facebook_Logo_Primary.png" alt="Facebook_image" class="SNS_item"></a>
+			</div>
+		</div>
+		<div class="footer_blue">
+			<p id="copylight">copylightⒸ熊本技術大学</p>
+		</div>
+	</footer>
+</body>
+</html>
+		
