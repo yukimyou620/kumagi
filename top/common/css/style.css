@@ -6,6 +6,7 @@ body{
 	align-items: center;
 	justify-content: center;
 	font-family: "Noto Sans JP", "Sawarabi Gothic", serif, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", "YuGothic", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", "Meiryo", "verdana", sans-serif;
+	overflow-x: hidden;
 }
 
 main{
