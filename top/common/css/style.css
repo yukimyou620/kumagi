@@ -597,7 +597,7 @@ body.menu_open {
 @media (max-width: 768px) {
 	.slideshow img {
 		max-width: 100%;
-		height: 400px;
+		height: 300px;
 		object-fit: cover;
 		object-position: top;
 	}
@@ -608,7 +608,7 @@ body.menu_open {
 		width: auto;
 		height: auto;
 		padding: 5px;
-		font-size: 28px;
+		font-size: 20px;
 		transform: translate(50px,-100px);
 	}
 }
@@ -709,6 +709,14 @@ body.menu_open {
 	color: #04599a;
 }
 @media (max-width: 768px) {
+	.pick_up_text{
+		transform: translateY(-36px);
+	}
+	.pick_up_text > h1{
+		font-size: 44px;
+		font-weight: 500;
+		text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.5);
+	}
 	.list_link{
 		padding-right: 10px;
 	}
@@ -792,7 +800,7 @@ body.menu_open {
 #gaiyou_title_sub{
 	display: none;
 }
-#gaiyou_title, #gaiyou_title_sub{
+#gaiyou_title{
 	font-size: 24px;
 	line-height: 2;
 	color: #2a2a2a;
@@ -800,7 +808,7 @@ body.menu_open {
 	margin-bottom: 85px;
 	font-family: "游明朝", sans-serif;
 }
-#gaiyou_title > span, #gaiyou_title_sub > span{
+#gaiyou_title > span{
 	font-size: 36px;
 	color: #6351e9;
 }
@@ -878,13 +886,13 @@ body.menu_open {
 	#third-image02{
 		transform: translateY(350px);
 	}
-	#gaiyou_title, #gaiyou_title_sub{
+	#gaiyou_title{
 		font-size: 21px;
 		line-height: 2;
 		margin-top: 80px;
 		margin-bottom: 60px;
 	}
-	#gaiyou_title > span, #gaiyou_title_sub > span{
+	#gaiyou_title > span{
 		font-size: 32px;
 	}
 	#gaiyou_honbun{
@@ -894,7 +902,7 @@ body.menu_open {
 		margin-left: 30px;
 	}
 	.syushokusaki_kakomi{
-		width: 380px;
+		width: 330px;
 		height: 200px;
 		border-radius: 70px;
 		gap: 15px;
@@ -903,15 +911,11 @@ body.menu_open {
 		margin-top: 20px;
 		margin-bottom: 10px;
 	}
-	#syushoku02{
-		font-size: 15px;
+	#syushoku02,#syushoku03{
+		font-size: 14px;
 		line-height: 1.5;
 	}
-	#syushoku03{
-		font-size: 15px;
-		line-height: 1.5;
-	}
-	}
+}
 @media (max-width: 768px) { 
     .gaiyou {
         flex-wrap: wrap;
@@ -946,12 +950,21 @@ body.menu_open {
 		align-items: center;
 		justify-content: center;
 	}
+	#gaiyou_title{
+		display: none;
+	}
 	#gaiyou_title_sub{
 		display: block;
 		margin-bottom: 0;
+		font-size: 18px;
+		line-height: 2;
+		color: #2a2a2a;
+		margin-top: 91px;
+		font-family: "游明朝", sans-serif;
 	}
-	#gaiyou_title{
-		display: none;
+	#gaiyou_title_sub > span{
+		font-size: 24px;
+		color: #6351e9;
 	}
 	#gaiyou_honbun{
 		font-size: 16px;
