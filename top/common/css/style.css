@@ -1032,6 +1032,14 @@ body.menu_open {
 	width: 383px;
 	background-color:#2a2a2a;
 }
+@media (max-width: 768px) {
+	.news_and_ivents_texts{
+		width: 100vw;
+	}
+	.news_and_ivents_texts::after {
+		width: 100vw;
+	}
+}
 .list_link02{
 	display: flex;
 	margin-left: 310px;
