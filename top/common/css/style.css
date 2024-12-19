@@ -721,13 +721,12 @@ body.menu_open {
 	gap: 100px;
 }
 .gaiyou_background_block{
-	width: 750px;
-	height: 750px;
+	width: 50vw;
+	height: 50vw;
 	background-color: #e2f4ff;
 	position: absolute;
 	transform: translate(200px,155px) rotate(45deg);
 	z-index: -2;
-	overflow: hidden;
 }
 .gaiyou_image_and_textbox{
 	display: flex;
@@ -844,7 +843,10 @@ body.menu_open {
 	font-family: "BIZ UDゴシック", sans-serif;
 }
 @media (max-width: 1200px) {
-    .gaiyou {
+    	.gaiyou_background_block{
+		transform: translate(130px,155px) rotate(45deg);
+	}
+	.gaiyou {
         gap: 20px;
     }
 }
@@ -916,9 +918,9 @@ body.menu_open {
 		max-width: 500px;
     }
 	.gaiyou_background_block{
-		width: 1100px;
-		height: 1100px;
-		transform: translate(350px,100px) rotate(45deg);
+		width: 600px;
+		height: 600px;
+		transform: translate(0px,370px) rotate(45deg) skew(26deg,26deg);
 	}
     .gaiyou_image_and_textbox {
 		padding-right: 20px;
