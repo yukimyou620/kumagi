@@ -727,6 +727,7 @@ body.menu_open {
 	position: absolute;
 	transform: translate(200px,155px) rotate(45deg);
 	z-index: -2;
+	overflow: hidden;
 }
 .gaiyou_image_and_textbox{
 	display: flex;
