@@ -1032,14 +1032,6 @@ body.menu_open {
 	width: 383px;
 	background-color:#2a2a2a;
 }
-@media (max-width: 768px) {
-	.news_and_ivents_texts{
-		width: 100vw;
-	}
-	.news_and_ivents_texts::after {
-		width: 100vw;
-	}
-}
 .list_link02{
 	display: flex;
 	margin-left: 310px;
@@ -1054,6 +1046,23 @@ body.menu_open {
 	font-family: "游明朝", sans-serif;
 	font-size: 16px;
 }
+@media (max-width: 768px) {
+	.news_and_ivents_texts{
+		width: 100vw;
+	}
+	.news_and_ivents_texts::after {
+		width: 100vw;
+	}
+	.list_link_indicator{
+		display: flex;
+		width: 100%;
+		justify-content: flex-end;
+	}
+	.list_link02{
+		margin-left: 0px;
+	}
+}
+
 .footer_grey{
 	width: 100%;
 	min-width: 100%;
